@@ -12,4 +12,6 @@ spring:
     config:
       server:
         git:
-          uri: file:///${GIT_REPO}
+          uri: https://github.com/longzhou3/spring-petclinic-microservices-config.git
+          username: longzhou3
+          password: lz198764
