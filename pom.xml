@@ -8,22 +8,22 @@
 		<version>1.5.9.RELEASE</version>
 	</parent>
 
-	<groupId>org.springframework.samples</groupId>
-	<artifactId>spring-petclinic-microservices</artifactId>
+	<groupId>com.niot</groupId>
+	<artifactId>microservices</artifactId>
 	<version>1.5.9</version>
     <name>${project.artifactId}</name>
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>spring-petclinic-admin-server</module>
-		<module>spring-petclinic-customers-service</module>
-		<module>spring-petclinic-vets-service</module>
-		<module>spring-petclinic-visits-service</module>
-		<module>spring-petclinic-config-server</module>
-        <module>spring-petclinic-discovery-server</module>
-        <module>spring-petclinic-api-gateway</module>
-        <module>spring-petclinic-monitoring</module>
-        <module>spring-petclinic-tracing-server</module>
+		<module>admin-server</module>
+		<module>customers-service</module>
+		<module>vets-service</module>
+		<module>visits-service</module>
+		<module>config-server</module>
+        <module>discovery-server</module>
+        <module>api-gateway</module>
+        <module>monitoring</module>
+        <module>tracing-server</module>
     </modules>
 
     <properties>
@@ -56,8 +56,8 @@
 			</dependency>
 
             <dependency>
-                <groupId>org.springframework.samples.petclinic.monitoring</groupId>
-                <artifactId>spring-petclinic-monitoring</artifactId>
+                <groupId>com.niot.monitoring</groupId>
+                <artifactId>monitoring</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
