@@ -16,7 +16,6 @@
 package com.niot.api.boundary.web;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import com.niot.api.application.CustomersServiceClient;
 import com.niot.api.application.OwnerDetails;
 import com.niot.api.application.VisitDetails;
